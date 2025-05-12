@@ -36,7 +36,7 @@ VS Code Welcome Screen:
    ```
 
 Git Installation Confirmation:
-![./welcome.png)
+![Git Installation Confirmation](./welcome.png)
 
 
 ## 3. VirtualBox
