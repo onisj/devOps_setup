@@ -30,4 +30,5 @@ A GitHub account was created and the dashboard accessed. Below is a screenshot c
 
 A repository was created containing a valid `index.html` file.
 
-- 🔗 [GitHub Repository URL](https://github.com/onisj/devOps_setup)
+- [GitHub Repository URL](https://github.com/onisj/devOps_setup)
+![GitHub Repository Image](./assets/confirm_index_html.png)
