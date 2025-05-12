@@ -1,2 +1,105 @@
-# devOps_setup
-Submission file for devOps setup
+# Step-by-Step Installation & Configuration Guide
+
+This guide details how I installed and configured the essential tools for my development and DevOps environment on a **Windows** machine.
+
+
+## 1. Visual Studio Code (VS Code)
+
+**Purpose:** A lightweight, extensible code editor for writing and managing code efficiently.
+
+**Steps:**
+1. Go to the [official VS Code website](https://code.visualstudio.com/).
+2. Click **Download for Windows**.
+3. Run the installer and follow the setup wizard:
+   - Accept license agreement.
+   - Select destination folder.
+   - Add to system PATH (recommended).
+4. After installation, launch VS Code.
+
+VS Code Welcome Screen:
+![VS Code Welcome Screen](./vscode.png)
+
+## 2. Git
+
+**Purpose:** A version control system used to track changes in code and collaborate with others.
+
+**Steps:**
+1. Visit the [official Git website](https://git-scm.com/).
+2. Click **Download for Windows**.
+3. Run the installer:
+   - Use recommended settings during setup.
+4. Open Command Prompt or PowerShell and run:
+
+   ```bash
+   git --version
+````
+
+Git Installation Confirmation:
+![Git Installation Confirmation](./github_profile.png)
+
+
+## 3. VirtualBox
+
+**Purpose:** A virtualization platform to run virtual machines like Ubuntu on your host OS.
+
+**Steps:**
+
+1. Go to the [VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
+2. Download the **Windows hosts** version.
+3. Run the installer and accept default settings.
+4. After installation, open VirtualBox to verify it works.
+
+Vurtualbox Installation:
+![Ubuntu installation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/VirtualBox.jpg)
+
+
+## 4. Ubuntu (on VirtualBox)
+
+**Purpose:** A Linux-based OS used for server-side development and DevOps practices.
+
+**Steps:**
+
+1. Download the latest Ubuntu Desktop ISO from [ubuntu.com](https://ubuntu.com/download/desktop).
+2. Open VirtualBox and click **New** to create a VM:
+
+   * **Name:** Ubuntu
+   * **Type:** Linux
+   * **Version:** Ubuntu (64-bit)
+3. Allocate at least **2GB (2048MB)** of RAM.
+4. Create a virtual hard disk (**20GB+** recommended).
+5. Select the created VM and click **Start**.
+6. When prompted, attach the downloaded ISO file.
+7. Proceed through the Ubuntu installation process inside VirtualBox.
+8. After setup, log in using the created Ubuntu user.
+
+Ubuntu Installation on Virtualbox:
+![Ubuntu installation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Ubuntu.jpg)
+
+## 5. GitHub Account
+
+**Purpose:** A cloud-based platform to host repositories and collaborate using Git.
+
+**Steps:**
+
+1. Go to [github.com](https://github.com/).
+2. Click **Sign up** and create an account.
+3. Complete profile setup and email verification.
+4. Once logged in, explore the dashboard and create your first repository.
+
+GitHub User Account Setup:
+![Git Installation Confirmation](./git-install-confirmation.png)
+
+## 6. AWS Management Console
+
+**Purpose:** A web interface for managing cloud resources using Amazon Web Services.
+
+**Steps:**
+
+1. Visit [aws.amazon.com](https://aws.amazon.com/).
+2. Click **Sign In to the Console** > **Create a new AWS account**.
+3. Enter your account and billing details (requires a valid payment method).
+4. After setup, log in to the AWS Management Console.
+5. Explore services such as **EC2**, **S3**, **IAM**, etc.
+
+AWS User Account Setup:
+{AWS installation confirmation](./AWS_account.png)
