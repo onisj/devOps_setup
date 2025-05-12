@@ -99,7 +99,7 @@ Ubuntu Installation Confirmation
 4. Once logged in, explore the dashboard and create your first repository.
 
 GitHub User Account Setup
- ![GitHub User Account Setup](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/GitHub.jpg)
+ ![GitHub User Account Setup](./github_profile.png)
 
 
 ---
