@@ -103,4 +103,4 @@ GitHub User Account Setup:
 5. Explore services such as **EC2**, **S3**, **IAM**, etc.
 
 AWS User Account Setup:
-[AWS installation confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/AWS.jpg)
+![AWS installation confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/AWS.jpg)
