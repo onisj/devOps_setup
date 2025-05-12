@@ -35,7 +35,7 @@ VS Code Welcome Screen:
    ```
 
 Git Installation Confirmation:
-![Git Installation Confirmation](./github_profile.png)
+![Git Installation Confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Git.jpg)
 
 
 ## 3. VirtualBox
@@ -73,7 +73,7 @@ Vurtualbox Installation:
 8. After setup, log in using the created Ubuntu user.
 
 Ubuntu Installation on Virtualbox:
-![Ubuntu installation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Ubuntu.jpg)
+![Ubuntu installation](./vUbuntu_virtualBox.png)
 
 ## 5. GitHub Account
 
@@ -87,7 +87,7 @@ Ubuntu Installation on Virtualbox:
 4. Once logged in, explore the dashboard and create your first repository.
 
 GitHub User Account Setup:
-![Git Installation Confirmation](./git-install-confirmation.png)
+![Git Installation Confirmation](./github_profile.png)
 
 ## 6. AWS Management Console
 
@@ -102,4 +102,4 @@ GitHub User Account Setup:
 5. Explore services such as **EC2**, **S3**, **IAM**, etc.
 
 AWS User Account Setup:
-{AWS installation confirmation](./AWS_account.png)
+[AWS installation confirmation](./AWS_account.png)
