@@ -32,7 +32,7 @@ VS Code Welcome Screen:
 
    ```bash
    git --version
-````
+   ```
 
 Git Installation Confirmation:
 ![Git Installation Confirmation](./github_profile.png)
