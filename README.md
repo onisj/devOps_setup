@@ -18,7 +18,7 @@ This guide details how I installed and configured the essential tools for my dev
 4. After installation, launch VS Code.
 
 VS Code Welcome Screen 
-![VS Code Welcome Screen ](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/VScode.jpg)
+![VS Code Welcome Screen ](./welcome.png)
 
 
 
@@ -40,7 +40,7 @@ VS Code Welcome Screen
    ```
 
 Git Installation Confirmation
-![Git Installation Confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Git.jpg)
+![Git Installation Confirmation](./Git.jpg)
 
 
 
@@ -58,7 +58,7 @@ Git Installation Confirmation
 4. After installation, open VirtualBox to verify it works.
 
 VirtualBox Installation Confirmation
- ![VirtualBox Installation Confirmation](./Screenshot 2025-05-12 at 02.42.48.png)
+ ![VirtualBox Installation Confirmation](./INSTALLATION.png)
 
 
 ### 4. Ubuntu (on VirtualBox)
@@ -80,7 +80,7 @@ VirtualBox Installation Confirmation
 6. After setup, login using the created Ubuntu user.
 
 Ubuntu Installation Confirmation
-![Ubuntu Installation Confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Ubuntu.jpg)
+![Ubuntu Installation Confirmation](./Screenshot.png)
 
 
 
@@ -115,5 +115,5 @@ GitHub User Account Setup
 5. Explore services like EC2, S3, IAM, etc.
 
 AWS User Account Setup
- ![AWS User Account Setup](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/AWS.jpg)
+ ![AWS User Account Setup](./AWS_account.png)
 
