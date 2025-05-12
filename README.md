@@ -59,7 +59,7 @@ Git Installation Confirmation
 4. After installation, open VirtualBox to verify it works.
 
 VirtualBox Installation Confirmation
- ![VirtualBox Installation Confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/VirtualBox.jpg)
+ ![VirtualBox Installation Confirmation](./Screenshot 2025-05-12 at 02.42.48.png)
 
 ---
 
