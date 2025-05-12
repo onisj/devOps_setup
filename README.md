@@ -2,7 +2,6 @@
 
 This guide details how I installed and configured the essential tools for my development and DevOps environment on a Windows machine.
 
----
 
 ### 1. Visual Studio Code (VS Code)
 
@@ -22,7 +21,7 @@ VS Code Welcome Screen
 ![VS Code Welcome Screen ](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/VScode.jpg)
 
 
----
+
 
 ### 2. Git
 
@@ -44,7 +43,7 @@ Git Installation Confirmation
 ![Git Installation Confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Git.jpg)
 
 
----
+
 
 ### 3. VirtualBox
 
@@ -61,7 +60,6 @@ Git Installation Confirmation
 VirtualBox Installation Confirmation
  ![VirtualBox Installation Confirmation](./Screenshot 2025-05-12 at 02.42.48.png)
 
----
 
 ### 4. Ubuntu (on VirtualBox)
 
@@ -85,7 +83,7 @@ Ubuntu Installation Confirmation
 ![Ubuntu Installation Confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Ubuntu.jpg)
 
 
----
+
 
 ### 5. GitHub Account
 
@@ -102,7 +100,7 @@ GitHub User Account Setup
  ![GitHub User Account Setup](./github_profile.png)
 
 
----
+
 
 ### 6. AWS Management Console
 
