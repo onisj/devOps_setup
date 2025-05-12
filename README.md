@@ -35,7 +35,10 @@ VS Code Welcome Screen:
    ```
 
 Git Installation Confirmation:
-![Git Installation Confirmation](https://github.com/Swapdevs/tech-environment-setup/blob/main/screenshots/Git.jpg)
+![Git Installation Confirmation](./AWS_account.png)
+
+---
+
 
 
 ## 3. VirtualBox
