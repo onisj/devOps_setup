@@ -18,7 +18,7 @@ This guide details how I installed and configured the essential tools for my dev
 4. After installation, launch VS Code.
 
 VS Code Welcome Screen 
-![VS Code Welcome Screen ](./welcome.png)
+![VS Code Welcome Screen ](./images/vscode_welcome_page.png)
 
 
 
@@ -40,7 +40,7 @@ VS Code Welcome Screen
    ```
 
 Git Installation Confirmation
-![Git Installation Confirmation](./Git.jpg)
+![Git Installation Confirmation](./images/gitbash_screenshoot_gitVersion.png)
 
 
 
@@ -58,7 +58,7 @@ Git Installation Confirmation
 4. After installation, open VirtualBox to verify it works.
 
 VirtualBox Installation Confirmation
- ![VirtualBox Installation Confirmation](./INSTALLATION.png)
+ ![VirtualBox Installation Confirmation](./images/virtualbox_welcome_page.png)
 
 
 ### 4. Ubuntu (on VirtualBox)
@@ -80,7 +80,7 @@ VirtualBox Installation Confirmation
 6. After setup, login using the created Ubuntu user.
 
 Ubuntu Installation Confirmation
-![Ubuntu Installation Confirmation](./Screenshot.png)
+![Ubuntu Installation Confirmation](./images/ubuntu_login_page.png)
 
 
 
@@ -97,7 +97,7 @@ Ubuntu Installation Confirmation
 4. Once logged in, explore the dashboard and create your first repository.
 
 GitHub User Account Setup
- ![GitHub User Account Setup](./github_profile.png)
+ ![GitHub User Account Setup](./images/github_profile.png)
 
 
 
@@ -115,5 +115,5 @@ GitHub User Account Setup
 5. Explore services like EC2, S3, IAM, etc.
 
 AWS User Account Setup
- ![AWS User Account Setup](./AWS_account.png)
+ ![AWS User Account Setup](./images/AWS_account.png)
 
