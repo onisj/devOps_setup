@@ -5,6 +5,7 @@ This directory contains the completed shell scripting assessment demonstrating b
 ## Overview
 
 The assessment focuses on creating and executing simple shell scripts that automate basic system management tasks:
+
 - Directory creation
 - User creation
 - Basic variable usage
@@ -14,29 +15,33 @@ The assessment focuses on creating and executing simple shell scripts that autom
 ## Files Created
 
 ### my_first_shell_script.sh
+
 A basic bash script that automates fundamental system tasks:
+
 - Creates three directories: Folder1, Folder2, Folder3
 - Creates three users: user1, user2, user3 (Ubuntu/Linux)
 - Includes proper shebang declaration
 - Demonstrates basic shell scripting concepts
 
 ### variables_demo.sh
+
 A simple script demonstrating basic variable usage:
+
 - Variable declaration (name="John")
 - Variable output using echo
 - Basic shell scripting structure
 
 ## Assessment Tasks Completed
 
-✅ **Creating the shell-scripting folder**: Successfully created directory structure
-✅ **Creating my_first_shell_script.sh**: Script file created with proper content
-✅ **Saving the script**: File saved in the correct location
-✅ **Navigating to the directory**: Changed to shell-scripting directory
-✅ **Confirming file creation**: Verified script exists using ls command
-✅ **Adding execute permissions**: Used chmod +x to make script executable
-✅ **Running the script**: Successfully executed ./my_first_shell_script.sh
-✅ **Verifying folder creation**: Confirmed three folders were created
-✅ **Creating variable script**: Created variables_demo.sh with basic variable usage
+- **Creating the shell-scripting folder**: Successfully created directory structure
+- **Creating my_first_shell_script.sh**: Script file created with proper content
+- **Saving the script**: File saved in the correct location
+- **Navigating to the directory**: Changed to shell-scripting directory
+- **Confirming file creation**: Verified script exists using ls command
+- **Adding execute permissions**: Used chmod +x to make script executable
+- **Running the script**: Successfully executed ./my_first_shell_script.sh
+- **Verifying folder creation**: Confirmed three folders were created
+- **Creating variable script**: Created variables_demo.sh with basic variable usage
 
 ## File Permissions
 
@@ -66,6 +71,7 @@ The shebang `#!/bin/bash` is a special notation at the beginning of shell script
 ## Script Execution Process
 
 ### Main Script Execution
+
 ```bash
 # Navigate to the shell-scripting directory
 cd shell-scripting
@@ -78,12 +84,14 @@ chmod +x my_first_shell_script.sh
 ```
 
 The enhanced script successfully:
+
 - Created all three directories with proper error checking
 - Demonstrated cross-platform user management awareness
 - Provided comprehensive execution feedback
 - Displayed system information and execution summary
 
 ### Variables Demo Script Execution
+
 ```bash
 # Make the variables demo script executable
 chmod +x variables_demo.sh
@@ -93,6 +101,7 @@ chmod +x variables_demo.sh
 ```
 
 The variables demo script successfully demonstrated:
+
 - 15+ different types of variables
 - System information gathering
 - Array manipulation
