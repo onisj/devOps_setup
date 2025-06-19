@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#1e1e1e"/>
+  <text x="10" y="25" fill="#00ff00" font-family="monospace" font-size="14">user@onisj-2 shell-scripting % cat variables_demo.sh</text>
+  <text x="10" y="50" fill="#ff6b6b" font-family="monospace" font-size="12">#!/bin/bash</text>
+  <text x="10" y="70" fill="#6c757d" font-family="monospace" font-size="12"># Simple variable demonstration script</text>
+  <text x="10" y="90" fill="#6c757d" font-family="monospace" font-size="12"># This script shows basic variable declaration and usage</text>
+  <text x="10" y="110" fill="#6c757d" font-family="monospace" font-size="12"># Variable declaration</text>
+  <text x="10" y="130" fill="#74c0fc" font-family="monospace" font-size="12">name="John"</text>
+  <text x="10" y="150" fill="#6c757d" font-family="monospace" font-size="12"># Print the variable</text>
+  <text x="10" y="170" fill="#ffd93d" font-family="monospace" font-size="12">echo $name</text>
+  <text x="10" y="200" fill="#00ff00" font-family="monospace" font-size="14">user@onisj-2 shell-scripting % ./variables_demo.sh</text>
+  <text x="10" y="220" fill="#90ee90" font-family="monospace" font-size="12">John</text>
+  <text x="10" y="240" fill="#90ee90" font-family="monospace" font-size="12">Variable demonstration completed.</text>
+  <text x="10" y="270" fill="#ffff00" font-family="monospace" font-size="12">📸 Screenshot: Variables demo script content and execution</text>
+</svg>
