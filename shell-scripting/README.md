@@ -23,15 +23,15 @@ A bash script that automates directory creation with the following functionality
 
 ## Assessment Tasks Completed
 
-**Task 1**: Created `shell-scripting` directory
-**Task 2**: Created `my_first_shell_script.sh` file
-**Task 3**: Added shell script code with proper shebang
-**Task 4**: Saved the file successfully
-**Task 5**: Navigated to shell-scripting directory
-**Task 6**: Verified file creation with `ls -latr`
-**Task 7**: Added execute permissions using `chmod +x`
-**Task 8**: Successfully executed the script
-**Task 9**: Verified creation of 3 directories
+- **Task 1**: Created `shell-scripting` directory
+- **Task 2**: Created `my_first_shell_script.sh` file
+- **Task 3**: Added shell script code with proper shebang
+- **Task 4**: Saved the file successfully
+- **Task 5**: Navigated to shell-scripting directory
+- **Task 6**: Verified file creation with `ls -latr`
+- **Task 7**: Added execute permissions using `chmod +x`
+- **Task 8**: Successfully executed the script
+- **Task 9**: Verified creation of 3 directories
 
 ## File Permissions Analysis
 
