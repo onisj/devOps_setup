@@ -5,6 +5,7 @@ This directory contains the completed shell scripting assessment for the DevOps 
 ## Project Overview
 
 This assessment demonstrates understanding of shell scripting fundamentals, including:
+
 - Creating and executing shell scripts
 - Understanding file permissions
 - Directory automation
@@ -13,32 +14,36 @@ This assessment demonstrates understanding of shell scripting fundamentals, incl
 ## Files Created
 
 ### my_first_shell_script.sh
+
 A bash script that automates directory creation with the following functionality:
+
 - Creates three directories: Folder1, Folder2, Folder3
 - Includes proper shebang declaration
 - Demonstrates basic shell scripting concepts
 
 ## Assessment Tasks Completed
 
-✅ **Task 1**: Created `shell-scripting` directory
-✅ **Task 2**: Created `my_first_shell_script.sh` file
-✅ **Task 3**: Added shell script code with proper shebang
-✅ **Task 4**: Saved the file successfully
-✅ **Task 5**: Navigated to shell-scripting directory
-✅ **Task 6**: Verified file creation with `ls -latr`
-✅ **Task 7**: Added execute permissions using `chmod +x`
-✅ **Task 8**: Successfully executed the script
-✅ **Task 9**: Verified creation of 3 directories
+**Task 1**: Created `shell-scripting` directory
+**Task 2**: Created `my_first_shell_script.sh` file
+**Task 3**: Added shell script code with proper shebang
+**Task 4**: Saved the file successfully
+**Task 5**: Navigated to shell-scripting directory
+**Task 6**: Verified file creation with `ls -latr`
+**Task 7**: Added execute permissions using `chmod +x`
+**Task 8**: Successfully executed the script
+**Task 9**: Verified creation of 3 directories
 
 ## File Permissions Analysis
 
 Initial permissions: `-rw-r--r--`
+
 - Owner: read (r) and write (w)
 - Group: read (r) only
 - Others: read (r) only
 - No execute (x) permission initially
 
 After chmod +x: `-rwxr-xr-x`
+
 - Owner: read (r), write (w), and execute (x)
 - Group: read (r) and execute (x)
 - Others: read (r) and execute (x)
@@ -85,20 +90,9 @@ shell-scripting/
 ## Note on User Creation
 
 The original assessment included user creation commands (`sudo useradd`), but these are:
+
 - Ubuntu/Linux specific commands
 - Not available on macOS systems
 - Require administrative privileges
 
 For demonstration purposes, the script focuses on directory creation which successfully demonstrates shell scripting automation concepts.
-
-## Assessment Score
-
-This submission addresses all key learning objectives:
-- ✅ Shell script creation and execution
-- ✅ File permission management
-- ✅ Directory automation
-- ✅ Shebang understanding and explanation
-- ✅ Command-line proficiency
-- ✅ Git version control integration
-
-**Expected Score: 100/100 points**
