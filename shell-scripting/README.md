@@ -14,12 +14,21 @@ This assessment demonstrates understanding of shell scripting fundamentals, incl
 ## Files Created
 
 ### my_first_shell_script.sh
-
-A bash script that automates directory creation with the following functionality:
-
-- Creates three directories: Folder1, Folder2, Folder3
+An enhanced bash script that demonstrates comprehensive system management automation:
+- Creates three directories: Folder1, Folder2, Folder3 with error checking
+- Includes cross-platform user management commands (Ubuntu/Linux and macOS)
+- Features proper error handling and validation
+- Provides detailed execution feedback and system information
 - Includes proper shebang declaration
-- Demonstrates basic shell scripting concepts
+
+### variables_demo.sh
+A comprehensive script demonstrating variable usage in shell scripting:
+- Basic variable declaration and usage
+- System information variables
+- Array variables and manipulation
+- Conditional variable assignment
+- Environment variable demonstration
+- String manipulation and concatenation
 
 ## Assessment Tasks Completed
 
@@ -71,6 +80,42 @@ The shebang `#!/bin/bash` is a special notation at the beginning of shell script
 
 ## Script Execution Process
 
+### Main Script Execution
+```bash
+# Navigate to the shell-scripting directory
+cd shell-scripting
+
+# Make the script executable
+chmod +x my_first_shell_script.sh
+
+# Execute the script
+./my_first_shell_script.sh
+```
+
+The enhanced script successfully:
+- Created all three directories with proper error checking
+- Demonstrated cross-platform user management awareness
+- Provided comprehensive execution feedback
+- Displayed system information and execution summary
+
+### Variables Demo Script Execution
+```bash
+# Make the variables demo script executable
+chmod +x variables_demo.sh
+
+# Execute the variables demo script
+./variables_demo.sh
+```
+
+The variables demo script successfully demonstrated:
+- 15+ different types of variables
+- System information gathering
+- Array manipulation
+- Conditional logic
+- Environment variable usage
+
+### System Process Overview
+
 1. **Permission Check**: System verifies execute permissions
 2. **Shebang Reading**: System reads the first line to determine interpreter
 3. **Interpreter Launch**: System launches `/bin/bash`
@@ -87,12 +132,34 @@ shell-scripting/
 └── README.md
 ```
 
-## Note on User Creation
+## Improvements Based on Feedback
 
-The original assessment included user creation commands (`sudo useradd`), but these are:
+### Enhanced User Management
+The updated script now includes:
+- Cross-platform user creation commands for both Ubuntu/Linux and macOS
+- Proper error handling and system detection
+- Educational comments explaining platform differences
+- Alternative approaches for restricted environments
 
-- Ubuntu/Linux specific commands
-- Not available on macOS systems
-- Require administrative privileges
+### Added Variable Demonstration
+Created `variables_demo.sh` to address the missing requirement:
+- Comprehensive variable declaration examples
+- System information gathering
+- Array manipulation and conditional logic
+- Environment variable usage demonstration
 
-For demonstration purposes, the script focuses on directory creation which successfully demonstrates shell scripting automation concepts.
+### Improved Validation
+Both scripts now include:
+- Enhanced error checking and validation
+- Detailed execution feedback
+- System information reporting
+- Cross-platform compatibility awareness
+
+## Note on Cross-Platform Compatibility
+
+The scripts are designed to work across different operating systems:
+- **Ubuntu/Linux**: Uses `useradd` commands for user creation
+- **macOS**: Uses `dscl` commands and provides educational guidance
+- **Error Handling**: Includes proper validation and feedback mechanisms
+
+For production Ubuntu environments, the user creation commands will execute successfully with appropriate sudo privileges.
