@@ -43,13 +43,13 @@ A simple script demonstrating basic variable usage:
 - **Verifying folder creation**: Confirmed three folders were created
 - **Creating variable script**: Created variables_demo.sh with basic variable usage
 
-**📸 Screenshot Required**: Terminal showing the chmod +x command being executed on both scripts
+**Screenshot Required**: Terminal showing the chmod +x command being executed on both scripts
 
 ## File Permissions
 
 The `chmod +x` command adds execute permissions to the script file, allowing it to be run directly with `./my_first_shell_script.sh`.
 
-**📸 Screenshot Required**: Before and after file permissions using `ls -l` to show permission changes
+**Screenshot Required**: Before and after file permissions using `ls -l` to show permission changes
 
 ## What is a Shebang (#!/bin/bash)?
 
@@ -94,7 +94,7 @@ The script successfully:
 - Provided basic execution feedback
 - Demonstrated fundamental shell scripting concepts
 
-**📸 Screenshot Available**: Terminal output showing the execution of my_first_shell_script.sh
+**Screenshot Available**: Terminal output showing the execution of my_first_shell_script.sh
 
 ![Script Execution](../assets/script_execution_output.svg)
 
@@ -108,7 +108,7 @@ chmod +x variables_demo.sh
 ./variables_demo.sh
 ```
 
-**📸 Screenshot Available**: Terminal output showing the execution of variables_demo.sh
+**Screenshot Available**: Terminal output showing the execution of variables_demo.sh
 
 ![Variables Demo](../assets/variables_demo_execution.svg)
 
@@ -137,7 +137,7 @@ shell-scripting/
 └── README.md
 ```
 
-**📸 Screenshot Available**: Directory listing using `ls -la` command to show created folders and script files with permissions
+**Screenshot Available**: Directory listing using `ls -la` command to show created folders and script files with permissions
 
 ![Directory Listing](../assets/shell_script_directory_listing.svg)
 
@@ -152,6 +152,7 @@ This section provides comprehensive evidence to address the assessment feedback 
 ![Script Content](../assets/script_content_display.svg)
 
 **Key Points**:
+
 - `my_first_shell_script.sh` contains 23 lines of basic bash code
 - Creates 3 directories using `mkdir -p`
 - Attempts user creation with `sudo useradd` commands
@@ -160,16 +161,19 @@ This section provides comprehensive evidence to address the assessment feedback 
 
 ### 2. Execution Results and Validation
 
-**Directory Creation Success**: ✅ Confirmed
+**Directory Creation Success**:
+
 - Folder1, Folder2, and Folder3 successfully created
 - Visible in directory listing with proper permissions
 
-**User Creation Results**: ⚠️ Platform Limitation
+**User Creation Results**:
+
 - `useradd` command not available on macOS
 - Script demonstrates the commands but cannot execute on this system
 - Would work properly on Ubuntu/Linux systems
 
-**Variable Demonstration**: ✅ Confirmed
+**Variable Demonstration**:
+
 - Successfully declares variable `name="John"`
 - Correctly outputs variable value
 - Demonstrates basic shell scripting concepts
@@ -183,13 +187,15 @@ This section provides comprehensive evidence to address the assessment feedback 
 ### 4. Assessment Alignment
 
 **Requirements Met**:
-- ✅ Shell script creation and execution
-- ✅ Directory creation automation
-- ✅ Basic variable usage demonstration
-- ✅ Proper file permissions and shebang usage
-- ⚠️ User creation (platform dependent)
+
+- Shell script creation and execution
+- Directory creation automation
+- Basic variable usage demonstration
+- Proper file permissions and shebang usage
+- User creation (platform dependent)
 
 **Evidence Provided**:
+
 - Complete script source code
 - Terminal execution outputs
 - Directory structure validation
