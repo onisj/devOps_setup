@@ -1,6 +1,4 @@
-Thanks, Aiyus — that’s a great observation. Here’s a **refined and enhanced version** of your project write-up, addressing the need for **deeper explanation of Pods and Containers**, and adding **key takeaways/reflections** to improve documentation quality and insight.
 
----
 
 # 📦 Working with Kubernetes Pods
 
@@ -8,7 +6,7 @@ Thanks, Aiyus — that’s a great observation. Here’s a **refined and enhance
 
 This project demonstrates how to **create, manage, and delete a Kubernetes Pod** using Minikube. It introduces the fundamental building blocks of Kubernetes — **Pods and Containers**, and walks through their lifecycle using `kubectl`, the Kubernetes CLI tool.
 
----
+
 
 ## 🧠 What Is a Pod?
 
@@ -22,7 +20,7 @@ Typically, **one container per pod** is used (following the single responsibilit
 
 > 🚀 Pods are ephemeral — they are meant to be replaced, not modified. Hence, for production, you should usually use **Deployments**, not raw Pods.
 
----
+
 
 ## 🧪 Steps Performed
 
@@ -55,7 +53,7 @@ Typically, **one container per pod** is used (following the single responsibilit
    kubectl delete pod hello-pod
    ```
 
----
+
 
 ## 📸 Screenshots
 
@@ -69,7 +67,7 @@ Typically, **one container per pod** is used (following the single responsibilit
  ---
  ![Delete Pod](imgs/pod4.png)   
 
----
+
 
 ## 🧾 Key Takeaways and Reflections
 
